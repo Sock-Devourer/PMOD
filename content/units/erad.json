@@ -1,0 +1,54 @@
+{
+  "type": "tank",
+
+  "name": "Erad",
+
+  "health": 400,
+  "omniMovement": false,
+  "armor": 4,
+  "speed": 0.9,
+  "hitSize": 10,
+
+  "range": 140,
+
+  "weapons": [
+    {
+      "name": "erad-weapon",
+
+      "x": 10,
+      "y": 0,
+
+      "reload": 15,
+      "rotate": true,
+      "rotateSpeed": 6,
+
+      "shootY": 10,
+
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 30,
+        "speed": 5,
+        "lifetime": 30,
+        "width": 15,
+        "height": 14
+      }
+    }
+  ],
+  "research":{
+    "parent":"crush",
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  },
+  "treadRects": [
+    {
+      "x": 6,
+      "y": -14,
+      "width": 8,
+      "height": 30
+    }
+  ]
+}

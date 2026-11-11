@@ -1,0 +1,35 @@
+{
+  "type": "flying",
+  "name": "Proton",
+  "flying": true,
+  "alwaysUnlocked": true,
+  "health": 650,
+  "armor": 4,
+  "speed": 3.8,
+  "hitSize": 14,
+  "engineOffset": 10,
+  "engineSize": 4,
+  "range": 110,
+  "weapons": [
+    {
+      "name": "proton-flamethrower",
+      "x": 0,
+      "y": 0,
+      "shootY": 8,
+      "reload": 4,
+      "rotate": false,
+      "rotateSpeed": 2,
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "slag",
+        "damage": 12,
+        "speed": 3,
+        "lifetime": 25,
+        "status": "melting"
+      }
+    }
+  ]
+  "research":{
+    "parent":"neutron"
+  }
+}

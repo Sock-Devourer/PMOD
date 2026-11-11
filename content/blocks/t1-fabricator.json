@@ -1,0 +1,126 @@
+{
+  "type": "UnitFactory",
+  "name": "T1 Fabricator",
+  "category": "units",
+  "alwaysUnlocked": true,
+
+  "health": 900,
+  "size": 3,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 150
+    },
+    {
+      "item": "lead",
+      "amount": 120
+    }
+  ],
+
+  "plans": [
+    {
+      "unit": "piercer",
+      "time": 900,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 20
+        },
+        {
+          "item": "graphite",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "unit": "impaler",
+      "time": 750,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "graphite",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "unit": "crush",
+      "time": 1000,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "graphite",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "unit": "neutron",
+      "time": 800,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "graphite",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "unit": "mal",
+      "time": 700,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "graphite",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "unit": "easy",
+      "time": 600,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "ruby",
+          "amount": 10
+        }
+      ]
+    }, 
+    {
+      "unit": "erad",
+      "time": 500,
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "emerald",
+          "amount": 10
+        }
+      ]
+    }
+
+
+  ],
+  "research": {
+    "parent": "core-starter"
+  }
+}

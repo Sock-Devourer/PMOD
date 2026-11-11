@@ -1,0 +1,20 @@
+{
+  "name": "Curve",
+  "planet": "novus",
+  "sector": 6,
+
+  "attackMode": true,
+
+  "difficulty": 4,
+
+  "map": "curve",
+  "research": {
+    "parent": "bend",
+    "objectives": [
+      {
+      "type": "sectorCapture",
+      "preset": "bend"
+      }
+    ]
+  }
+}

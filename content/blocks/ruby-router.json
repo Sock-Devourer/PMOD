@@ -1,0 +1,24 @@
+{
+  "type": "Router",
+
+  "name": "Ruby Router",
+
+  "category": "distribution",
+  "alwaysUnlocked": true,
+
+  "health": 90,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 3
+    }
+  ],
+
+  "research":{
+    "parent": "ruby-router",
+    "requirements": [
+      "ruby/100"
+    ]
+  }
+}

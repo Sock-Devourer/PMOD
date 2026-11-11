@@ -1,0 +1,12 @@
+{
+  "name": "Clay",
+  "hardness": 1,
+  "cost": 1.5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "color": "9d7f7f",
+  "research": {
+    "parent": "ruby"
+  }
+}

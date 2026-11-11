@@ -1,0 +1,64 @@
+{
+  "type": "ItemTurret",
+
+  "name": "Star",
+  "category": "turret",
+  "alwaysUnlocked": true,
+
+  "size": 3,
+  "health": 1200,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 250
+    },
+    {
+      "item": "lead",
+      "amount": 200
+    }
+  ],
+    
+  "range": 360,
+  "reload": 10,
+
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+
+      "damage": 15,
+
+      "speed": 5,
+      "lifetime": 90,
+
+      "width": 20,
+      "height": 16,
+      "frontColor": "8f3a3a",
+      "backColor": "dd7e7e",
+
+      "hitSize": 18
+    },
+    "coal": {
+      "type": "BasicBulletType",
+
+      "damage": 20,
+
+      "speed": 1,
+      "lifetime": 360,
+      "homingPower": 0.8,
+      "homingRange": 250,
+
+
+      "width": 40,
+      "height": 32,
+      "frontColor": "4a4b53",
+      "backColor": "2f2d39",
+
+      "hitSize": 18
+    }
+
+  },
+  "research":{
+    "parent":"core-starter"
+  }
+}

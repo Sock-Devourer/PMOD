@@ -1,0 +1,47 @@
+{
+  "type": "OverdriveProjector",
+
+  "name": "Overboost",
+
+  "category": "effect",
+
+  "size": 3,
+  "health": 600,
+
+  "range": 100,
+
+  "speedBoost": 3.0,
+
+  "useTime": 60,
+
+  "hasPower": true,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 50
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 20
+    }
+  ],
+
+  "research": {
+    "parent": "surge-grinder",
+    "requirements": [
+      "ruby/100",
+      "surge-dust/50"
+    ],
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  }
+}

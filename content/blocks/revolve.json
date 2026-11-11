@@ -1,0 +1,49 @@
+{
+  "type": "ItemTurret",
+
+  "name": "Revolve",
+  "category": "turret",
+
+  "size": 3,
+  "health": 1400,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 180
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "graphite",
+      "amount": 80
+    }
+  ],
+
+  "range": 220,
+  "reload": 10,
+
+  "ammoTypes": {
+    "ruby": {
+      "type": "BasicBulletType",
+
+      "sprite": "circle-bullet",
+
+      "damage": 22,
+      "speed": 7,
+      "lifetime": 32,
+
+      "width": 14,
+      "height": 14,
+
+      "spin": 20,
+
+      "hitSize": 14
+    }
+  }
+  "research":{
+    "parent":"bolt"
+  }
+}

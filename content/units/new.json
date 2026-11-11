@@ -1,0 +1,23 @@
+{
+  "type": "flying",
+  "name": "New",
+  "description": "The mark of a new era. Builds to defend the Starter core.",
+  "flying": true,
+  "accel": 0.5,
+  "drag": 0.05,
+  "rotateSpeed": 5,
+  "alwaysUnlocked": true,
+  "health": 300,
+  "armor": 1,
+  "speed": 4.5,
+  "hitSize": 8,
+  "engineOffset": 8,
+  "engineSize": 4,
+  "mineTier": 2,
+  "mineSpeed": 6,
+  "buildSpeed": 1.2,
+  "itemCapacity": 75,
+  "research": {
+    "parent": "core-starter"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Junction",
+
+  "name": "Ruby Junction",
+
+  "category": "distribution",
+
+  "health": 100,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 4
+    }
+  ],
+  "research":{
+    "parent":"core-starter",
+    "requirements": [
+            "ruby/100",
+            "emerald/80"
+        ]
+  }
+}

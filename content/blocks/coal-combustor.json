@@ -1,0 +1,38 @@
+{
+  "type": "ConsumeGenerator",
+
+  "name": "Coal Combustor",
+
+  "category": "power",
+  "alwaysUnlocked": true,
+
+  "size": 2,
+  "health": 250,
+
+  "powerProduction": 2,
+
+  "itemDuration": 120,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 40
+    },
+    {
+      "item": "emerald",
+      "amount": 30
+    }
+  ],
+  "consumes": {
+    "items": [
+      {
+        "item": "coal",
+        "amount": 1
+      }
+    ]
+  },
+
+   "research": {
+    "parent": "lithium-drill",    
+  }
+}

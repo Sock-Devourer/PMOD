@@ -1,0 +1,26 @@
+{
+  "type": "CoreBlock",
+  "name": "Starter",
+  "alwaysUnlocked": true,
+  "size": 3,
+  "health": 3000,
+  "category": "effect",
+  "itemCapacity": 4000,
+  "unitType": "new",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1000
+    },
+    {
+      "item": "lead",
+      "amount": 800
+    }
+  ],
+   "research": {
+  "root": true,
+  "name": "novus-tree",
+  "requiresUnlock": false,
+  "planet": "novus"
+ }
+}

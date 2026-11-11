@@ -1,0 +1,39 @@
+{
+  "type": "flying",
+  "name": "Impaler",
+  "description": "a small flying unit. easy to mass-produce.",
+  "flying": true,
+  "accel": 0.5,
+  "drag": 0.05,
+  "rotateSpeed": 5,
+  "health": 180,
+  "speed": 2.5,
+  "hitSize": 8,
+  "armor": 1,
+
+  "engineOffset": 7,
+  "engineSize": 3,
+
+  "range": 140,
+
+  "weapons": [
+    {
+      "reload": 15,
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "speed": 7,
+        "lifetime": 30,
+        "width": 6,
+        "height": 10
+      }
+    }
+  ]
+  "research":{
+    "parent":"piercer"
+  }
+}

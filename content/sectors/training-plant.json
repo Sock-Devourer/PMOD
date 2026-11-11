@@ -1,0 +1,20 @@
+{
+  "name": "Training Plant",
+  "planet": "novus",
+  "sector": 4,
+
+  "attackMode": true,
+
+  "difficulty": 4,
+
+  "map": "training-plant",
+  "research": {
+    "parent": "bend",
+    "objectives": [
+      {
+      "type": "sectorCapture",
+      "preset": "bend"
+      }
+    ]
+  }
+}

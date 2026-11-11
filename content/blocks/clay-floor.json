@@ -1,0 +1,9 @@
+{
+  "type": "Floor",
+
+  "variants": 3,
+
+  "itemDrop": "clay",
+
+  "speedMultiplier": 0.95
+}

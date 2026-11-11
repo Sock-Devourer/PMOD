@@ -1,0 +1,75 @@
+{
+  "type": "Reconstructor",
+
+  "name": "T2 Fabricator",
+  "category": "units",
+
+  "size": 5,
+  "health": 1800,
+
+  "rotate": true,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 300
+    },
+    {
+      "item": "lead",
+      "amount": 300
+    },
+    {
+      "item": "silicon",
+      "amount": 200
+    }
+  ],
+
+  "constructTime": 1800,
+
+  "upgrades": [
+    [
+      "piercer",
+      "cross"
+    ],
+    [
+      "impaler",
+      "raptor"
+    ],
+    [
+      "neutron",
+      "proton"
+    ]
+  ],
+
+  "consumes": {
+    "power": 3,
+    "items": [
+      {
+        "item": "silicon",
+        "amount": 100
+      },
+      {
+        "item": "graphite",
+        "amount": 50
+      },
+      {
+        "item": "sand",
+        "amount": 50
+      }
+    ]
+  },
+
+  "research": {
+    "parent": "t1-fabricator",
+    "requirements": [
+      {
+        "item": "ruby",
+        "amount": 60
+      },
+      {
+        "item": "emerald",
+        "amount": 40
+      }
+    ]
+  }
+}

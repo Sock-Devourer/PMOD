@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "lithium",
+  "playerUnmineable": false,
+  "oreDefault": true,
+  "variants": 0,
+  "oreScale": 19.7,
+  "oreThreshold": 0.917
+}

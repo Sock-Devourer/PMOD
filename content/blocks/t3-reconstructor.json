@@ -1,0 +1,78 @@
+{
+  "type": "Reconstructor",
+
+  "name": "T3 Fabricator",
+  "category": "units",
+
+  "size": 8,
+  "health": 4000,
+
+  "rotate": true,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 300
+    },
+    {
+      "item": "emerald",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 500
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 100
+    }
+  ],
+
+  "constructTime": 3600,
+
+  "upgrades": [
+    [
+      "cross",
+      "lance"
+    ],
+    [
+      "raptor",
+      "falcon"
+    ],
+    [
+      "proton",
+      "electron"
+    ]
+  ],
+
+  "consumes": {
+    "power": 10,
+    "items": [
+      {
+        "item": "silicon",
+        "amount": 200
+      },
+      {
+        "item": "graphite",
+        "amount": 100
+      },
+      {
+        "item": "surge-dust",
+        "amount": 75
+      },
+      {
+        "item": "emerald",
+        "amount": 50
+      }
+    ]
+  },
+
+  "research": {
+    "parent": "t2-reconstructor",
+    "requirements": [
+      "ruby/200",
+      "emerald/150",
+      "surge-dust/100"
+    ]
+  }
+}

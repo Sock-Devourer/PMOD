@@ -1,0 +1,39 @@
+{
+  "type": "MendProjector",
+
+  "name": "Overheal",
+
+  "size": 2,
+  "health": 800,
+
+  "range": 200,
+
+  "reload": 1,
+
+  "healPercent": 50,
+
+  "phaseBoost": 0,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 80
+    },
+    {
+      "item": "insulation",
+      "amount": 40
+    },
+    {
+      "item": "silicon",
+      "amount": 30
+    }
+  ],
+
+  "research": {
+    "parent": "overboost",
+    "requirements": [
+      "ruby/100",
+      "insulation/50"
+    ]
+  }
+}

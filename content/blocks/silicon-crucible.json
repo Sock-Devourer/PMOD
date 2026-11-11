@@ -1,0 +1,51 @@
+{
+  "type": "GenericCrafter",
+
+  "name": "Silicon Crucible",
+
+  "category": "crafting",
+  "alwaysUnlocked": true,
+
+  "size": 2,
+  "health": 280,
+
+  "craftTime": 20,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "lead",
+      "amount": 60
+    },
+    {
+      "item": "graphite",
+      "amount": 40
+    }
+  ],
+
+  "consumes": {
+    "power": 1.2,
+    "items": [
+      {
+        "item": "coal",
+        "amount": 1
+      },
+      {
+        "item": "sand",
+        "amount": 2
+      }
+    ]
+  },
+
+  "outputItem": {
+    "item": "silicon",
+    "amount": 2
+  },
+
+  "research": {
+    "parent": "graphitic-compressor"
+  }
+}

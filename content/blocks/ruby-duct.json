@@ -1,0 +1,28 @@
+{
+  "type": "Duct",
+
+  "name": "Ruby Duct",
+
+  "category": "distribution",
+  "alwaysUnlocked": true,
+
+  "health": 90,
+  "speed": 5,
+
+  "bridgeReplacement": "ruby-duct-bridge",
+  "junctionReplacement": "ruby-junction",
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 1
+    }
+  ],
+
+  "research":{
+    "parent":"core-starter"
+    "requirements": [
+            "ruby/5"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "type": "flying",
+  "flying": true,
+  "alwaysUnlocked": true,
+
+  "name": "easy",
+
+  "health": 180,
+  "armor": 1,
+
+  "speed": 5.0,
+  "hitSize": 8,
+
+  "engineOffset": 7,
+  "engineSize": 3,
+
+  "range": 160,
+
+  "weapons": [
+    {
+      "name": "easy-weapon",
+
+      "x": 4,
+      "y": 0,
+
+      "shootY": 5,
+      "shots": 5,
+      "reload": 12,
+
+      "rotate": false,
+
+      "bullet": {
+        "type": "BasicBulletType",
+
+        "damage": 10,
+        "speed": 8,
+        "lifetime": 20,
+
+        "width": 6,
+        "height": 10
+      }
+    }
+  ],
+"research":{
+    "parent":"crush",
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  }
+
+
+}

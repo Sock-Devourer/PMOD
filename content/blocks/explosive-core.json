@@ -1,0 +1,36 @@
+{
+  "type": "Wall",
+
+  "name": "Explosives",
+  "category": "defense",
+
+  "size": 2,
+  "health": 40,
+
+  "chanceDeflect": 0,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 5
+    }
+  ],
+
+  "research":{
+  "parent": "ruby-wall",
+    "reqirements": [
+    "coal/100",
+      "ruby/100"
+    ]
+  },
+  "destroyBullet": {
+    "type": "ExplosionBulletType",
+
+    "splashDamage": 800,
+    "splashDamageRadius": 50,
+
+    "incendChance": 1,
+    "incendAmount": 8,
+    "incendSpread": 20
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Clay Field",
+  "planet": "novus",
+  "sector": 5,
+
+  "attackMode": true,
+
+  "difficulty": 2,
+
+  "map": "clay-field",
+  "research": {
+    "parent": "valley",
+    "objectives": [
+      {
+      "type": "sectorCapture",
+      "preset": "valley"
+      }
+    ]
+  }
+}

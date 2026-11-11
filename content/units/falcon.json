@@ -1,0 +1,63 @@
+{
+  "type": "flying",
+  "flying": true,
+
+  "name": "Falcon",
+  "alwaysUnlocked": true,
+
+  "health": 1400,
+  "armor": 7,
+
+  "speed": 4.8,
+  "hitSize": 18,
+
+  "engineOffset": 12,
+  "engineSize": 5,
+
+  "range": 260,
+
+  "weapons": [
+    {
+      "name": "falcon-cannon",
+
+      "x": 0,
+      "y": 0,
+
+      "shootY": 9,
+
+      "reload": 16,
+
+      "rotate": false,
+      "rotateSpeed": 8,
+
+      "bullet": {
+        "type": "BasicBulletType",
+
+        "damage": 55,
+
+        "speed": 9,
+        "lifetime": 35,
+
+        "width": 10,
+        "height": 14,
+
+        "homingPower": 0.05,
+        "homingRange": 180
+      }
+     }
+    ],
+  "research": {
+    "parent": "raptor",
+    "reqiuirements": [
+      "surge-dust/100",
+      "ruby/100",
+      "silicon/100"
+    ],
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  }
+}

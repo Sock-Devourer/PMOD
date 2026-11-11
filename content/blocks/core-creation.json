@@ -1,0 +1,47 @@
+{
+  "type": "CoreBlock",
+  "name": "Core:Creation",
+  "alwaysUnlocked": false,
+  "size": 5,
+  "health": 13000,
+  "itemCapacity": 27000,
+  "unitCapModifier": 30,
+  "unitType": "const",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 3000
+    },
+    {
+      "item": "lead",
+      "amount": 2500
+    },
+    {
+      "item": "silicon",
+      "amount": 1500
+    },
+    {
+      "item": "surge-dust",
+      "amount": 1500
+    },
+
+    {
+      "item": "graphite",
+      "amount": 1000
+    }
+  ],
+  "research":{
+    "parent":"core-initiation",
+    "requirements": [
+            "ruby/100",
+            "emerald/80",
+            "surge-dust/120"
+    ],
+    "objectives": [
+       {
+         "type": "sectorCapture",
+         "preset": "clay-field"
+       }
+    ]
+  }
+}

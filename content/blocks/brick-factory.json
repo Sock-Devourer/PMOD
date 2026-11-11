@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Brick Factory",
+  "category": "crafting",
+  "size": 2,
+  "health": 220,
+  "craftTime": 60,
+  "consumes": {
+    "power": 1,
+    "items": [
+      {
+        "item": "clay",
+        "amount": 2
+      },
+      {
+        "item": "coal",
+        "amount": 1
+      }
+    ]
+  },
+  "outputItem": {
+    "item": "brick",
+    "amount": 1
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 50
+    },
+    {
+      "item": "lead",
+      "amount": 40
+    }
+  ],
+  "research": {
+    "parent": "graphitic-compressor",
+    "requirements": [
+      "clay/50"
+    ],
+    "objectives": [
+      "clay"
+      { 
+        "type": "onSector",
+        "preset": "clay-field"
+      }
+    ]
+  }
+}

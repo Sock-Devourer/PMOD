@@ -1,0 +1,40 @@
+{
+  "type": "tank",
+
+  "name": "Crush",
+
+  "health": 400,
+  "omniMovement": false
+  "armor": 4,
+  "speed": 0.9,
+  "hitSize": 10,
+
+  "range": 140,
+
+  "weapons": [
+    {
+      "name": "crush-cannon",
+
+      "x": 0,
+      "y": 0,
+
+      "reload": 30,
+      "rotate": true,
+      "rotateSpeed": 6,
+
+      "shootY": 10,
+
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 30,
+        "speed": 5,
+        "lifetime": 30,
+        "width": 8,
+        "height": 12
+      }
+    }
+  ]
+  "research":{
+    "parent":"piercer"
+  }
+}

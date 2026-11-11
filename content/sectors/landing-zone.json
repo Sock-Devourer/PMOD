@@ -1,0 +1,16 @@
+{
+  "name": "Landing Zone",
+  "planet": "novus",
+  "sector": 1,
+
+  "attackMode": true,
+
+  "difficulty": 1,
+  "alwaysUnlocked": true,
+
+  "map": "landing-zone"
+  "map": "valley",
+  "research": {
+    "parent": "core-starter"
+  }
+}

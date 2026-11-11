@@ -1,0 +1,88 @@
+{
+  "type": "ItemTurret",
+
+  "name": "Apex",
+  "category": "turret",
+  "alwaysUnlocked": true,
+
+  "size": 2,
+  "health": 1200,
+
+  "requirements": [
+    {
+      "item": "surge-alloy",
+      "amount": 250
+    },
+    {
+      "item": "surge-dust",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    }
+  ],
+
+  "range": 600,
+  "reload": 20,
+
+  "ammoTypes": {
+    "surge-alloy": {
+      "type": "BasicBulletType",
+
+      "damage": 6,
+
+      "speed": 3,
+      "lifetime": 60,
+
+      "width": 8,
+      "height": 8,
+
+
+      "frontColor": "a0c8ff",
+      "backColor": "6ea8ff",
+
+      "hitSize": 8
+    },
+    "surge-dust": {
+      "type": "BasicBulletType",
+
+      "damage": 6,
+
+      "speed": 5,
+      "lifetime": 60,
+      "fragBullets": 5,
+
+      "width": 8,
+      "height": 8,
+
+
+      "frontColor": "a0c8ff",
+      "backColor": "6ea8ff",
+
+      "hitSize": 8
+    },
+    "silicon": {
+      "type": "BasicBulletType",
+
+      "damage": 6,
+
+      "speed": 7,
+      "lifetime": 60,
+
+      "width": 8,
+      "height": 8,
+
+      "homingPower": 1.8,
+      "homingRange": 250,
+
+      "frontColor": "a0c8ff",
+      "backColor": "6ea8ff",
+
+      "hitSize": 8
+    }
+  }
+  "research":{
+    "parent":"bolt"
+  }
+}

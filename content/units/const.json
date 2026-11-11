@@ -1,0 +1,23 @@
+{
+  "type": "flying",
+  "name": "Const",
+  "description": "The third and final(maybe).",
+  "flying": true,
+  "accel": 0.5,
+  "drag": 0.05,
+  "rotateSpeed": 5,
+  "alwaysUnlocked": false,
+  "health": 300,
+  "armor": 1,
+  "speed": 4.5,
+  "hitSize": 8,
+  "engineOffset": 8,
+  "engineSize": 4,
+  "mineTier": 2,
+  "mineSpeed": 6,
+  "buildSpeed": 1.2,
+  "itemCapacity": 75,
+  "research": {
+    "parent": "core-creation"
+  }
+}

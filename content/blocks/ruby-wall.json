@@ -1,0 +1,20 @@
+{
+  "type": "Wall",
+
+  "name": "Ruby Wall",
+  "category": "defense",
+  "alwaysUnlocked": true,
+
+  "health": 800,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 6
+    }
+  ],
+
+  "research":{
+    "parent":"core-starter"
+  }
+}

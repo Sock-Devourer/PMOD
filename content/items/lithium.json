@@ -1,0 +1,12 @@
+{
+  "name": "lithium",
+  "hardness": 3,
+  "cost": 1.5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "color": "d1003f",
+  "research":{
+    "parent":"ruby"
+  }
+}

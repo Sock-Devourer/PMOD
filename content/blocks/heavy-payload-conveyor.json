@@ -1,0 +1,35 @@
+{
+  "type": "PayloadConveyor",
+
+  "name": "Heavy Payload Conveyor",
+
+  "category": "units",
+
+  "size": 3,
+  "health": 1200,
+
+  "moveTime": 60,
+
+  "requirements": [
+    {
+      "item": "emerald",
+      "amount": 80
+    },
+    {
+      "item": "ruby",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 30
+    }
+  ],
+
+  "research": {
+    "parent": "t1-fabricator",
+    "requirements": [
+      "ruby/100",
+      "silicon/50"
+    ]
+  }
+}

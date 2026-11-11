@@ -1,0 +1,28 @@
+{
+  "type": "mech",
+  "name": "Cross",
+  "health": 650,
+  "speed": 0.95,
+  "hitSize": 12,
+  "armor": 5,
+  "range": 180,
+  "weapons": [
+    {
+      "reload": 12,
+      "x": 4,
+      "y": 0,
+      "shootY": 4,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 35,
+        "speed": 6,
+        "lifetime": 35,
+        "width": 10,
+        "height": 14
+      }
+    }
+  ]
+  "research":{
+    "parent":"piercer"
+  }
+}

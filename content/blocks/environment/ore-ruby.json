@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "ruby",
+  "playerUnmineable": false,
+  "oreDefault": true,
+  "variants": 2,
+  "oreScale": 19.7,
+  "oreThreshold": 0.917
+}

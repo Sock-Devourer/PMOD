@@ -1,0 +1,38 @@
+{
+  "type": "StackConveyor",
+
+  "name": "Emerald Stack Conveyor",
+
+  "category": "distribution",
+
+  "health": 180,
+
+  "itemCapacity": 20,
+  "speed": 3,
+
+  "requirements": [
+    {
+      "item": "emerald",
+      "amount": 2
+    },
+    {
+      "item": "ruby",
+      "amount": 1
+    }
+  ],
+
+  "research": {
+    "parent": "ruby-duct",
+
+    "requirements": [
+      "emerald/50",
+      "ruby/50"
+    ],
+     "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "training-plant"
+      }
+    ]
+  }
+}

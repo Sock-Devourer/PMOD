@@ -1,0 +1,32 @@
+{
+  "type": "mech",
+
+  "name": "Piercer",
+
+  "health": 250,
+  "speed": 0.8,
+  "hitSize": 8,
+  "armor": 2,
+  "range": 120,
+
+  "weapons": [
+    {
+      "reload": 20,
+      "x": 0,
+      "y": 0,
+      "shootY": 4,
+
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 20,
+        "speed": 5,
+        "lifetime": 25,
+        "width": 8,
+        "height": 10
+      }
+    }
+  ]
+  "research":{
+    "parent":"t1-fabricator"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Valley",
+  "planet": "novus",
+  "sector": 3,
+
+  "attackMode": true,
+
+  "difficulty": 2,
+
+  "map": "valley",
+  "research": {
+    "parent": "bend",
+    "objectives": [
+      {
+      "type": "sectorCapture",
+      "preset": "bend"
+      }
+    ]
+  }
+}

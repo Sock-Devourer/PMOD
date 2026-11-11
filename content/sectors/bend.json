@@ -1,0 +1,21 @@
+{
+  "name": "Bend",
+  "planet": "novus",
+  "sector": 2,
+
+  "attackMode": true,
+
+  "difficulty": 1,
+  "alwaysUnlocked": true,
+
+  "map": "bend"
+  "research": {
+    "parent": "landing-zone",
+    "objectives": [
+      {
+      "type": "sectorCapture",
+      "preset": "landing-zone"
+      }
+    ]
+  }
+}

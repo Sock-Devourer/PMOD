@@ -1,0 +1,7 @@
+{
+  "type": "StaticWall",
+
+  "variants": 2,
+
+  "itemDrop": "clay"
+}

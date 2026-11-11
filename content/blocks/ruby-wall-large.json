@@ -1,0 +1,21 @@
+{
+  "type": "Wall",
+
+  "name": "Large Ruby Wall",
+  "category": "defense",
+  "alwaysUnlocked": true,
+
+  "size": 2,
+  "health": 3200,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 24
+    }
+  ],
+
+  "research":{
+    "parent":"ruby-wall"
+  }
+}

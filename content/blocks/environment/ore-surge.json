@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "surge-alloy",
+  "playerUnmineable": true,
+  "oreDefault": true,
+  "variants": 0,
+  "oreScale": 19.7,
+  "oreThreshold": 0.917
+}

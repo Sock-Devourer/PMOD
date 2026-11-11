@@ -1,0 +1,31 @@
+{
+  "type": "PayloadMassDriver",
+
+  "name": "Heavy Mass Driver",
+
+  "category": "units",
+
+  "size": 3,
+  "health": 1000,
+
+  "range": 300,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 40
+    },
+    {
+      "item": "silicon",
+      "amount": 50
+    }
+  ],
+
+  "research": {
+    "parent": "heavy-payload-conveyor",
+    "requirements": [
+      "ruby/75",
+      "emerald/25"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "flying",
+  "name": "Raptor",
+  "description": "The evolution of impaler. A chaotic little lad.",
+  "flying": true,
+  "health": 500,
+  "speed": 2.5,
+  "accel": 0.5,
+  "drag": 0.05,
+  "rotateSpeed": 5,
+  "hitSize": 8,
+  "armor": 3,
+  "engineOffset": 8,
+  "engineSize": 3,
+  "range": 190,
+  "weapons": [
+    {
+      "reload": 10,
+      "x": 0,
+      "y": 0,
+      "shootY": 6,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 28,
+        "speed": 8,
+        "lifetime": 35,
+        "width": 8,
+        "height": 12
+      }
+    }
+  ]
+ deathExplosionEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 40
+    colorFrom: ffffff
+    colorTo: ff5555
+  }
+  "research":{
+    "parent":"impaler"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "ItemTurret",
+
+  "name": "Bolt",
+  "category": "turret",
+  "alwaysUnlocked": true,
+
+  "size": 2,
+  "health": 1200,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 250
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    }
+  ],
+
+  "range": 600,
+  "reload": 15,
+
+  "ammoTypes": {
+    "surge-alloy": {
+      "type": "BasicBulletType",
+
+      "damage": 6,
+
+      "speed": 10,
+      "lifetime": 60,
+
+      "width": 8,
+      "height": 8,
+
+      "homingPower": 1.8,
+      "homingRange": 250,
+
+      "frontColor": "a0c8ff",
+      "backColor": "6ea8ff",
+
+      "hitSize": 8
+    }
+  }
+  "research":{
+    "parent":"railer"
+  }
+}

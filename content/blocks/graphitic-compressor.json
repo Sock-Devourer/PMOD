@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+
+  "name": "Graphitic Compressor",
+  "category": "crafting",
+
+  "size": 2,
+  "health": 180,
+
+  "craftTime": 12,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "lead",
+      "amount": 60
+    }
+  ],
+
+  "consumes": {
+    "items": [
+      {
+        "item": "coal",
+        "amount": 1
+      }
+    ]
+  },
+
+  "outputItem": {
+    "item": "graphite",
+    "amount": 1
+  }
+  "research": {
+    "parent": "core-starter",
+    "reqirements": "ruby/20"    
+  }
+}

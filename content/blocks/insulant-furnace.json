@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "name": "Insulant Furnace",
+  "category": "crafting",
+  "size": 2,
+  "health": 250,
+  "craftTime": 90,
+  "consumes": {
+    "power": 1.5,
+    "items": [
+      {
+        "item": "clay",
+        "amount": 2
+      },
+      {
+        "item": "graphite",
+        "amount": 1
+      }
+    ]
+  },
+  "outputItem": {
+    "item": "insulation",
+    "amount": 1
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 60
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "graphite",
+      "amount": 25
+    }
+  ],
+  "research": {
+    "parent": "brick-factory",
+    "requirements": [
+      "brick/25"
+    ],
+    "objectives": [
+      "clay"
+      { 
+        "type": "onSector",
+        "preset": "clay-field"
+      }
+    ]
+  }
+}

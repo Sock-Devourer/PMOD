@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Neutron",
+  "alwaysUnlocked": true,
+  "flying": true,
+  "health": 220,
+  "armor": 1,
+  "speed": 4.2,
+  "hitSize": 9,
+  "engineOffset": 7,
+  "engineSize": 3,
+  "range": 140,
+  "weapons": [
+    {
+      "name": "neutron-gun",
+      "x": -4,
+      "y": 0,
+      "shootY": 4,
+      "reload": 15,
+      "rotate": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "speed": 6,
+        "lifetime": 25,
+        "width": 6,
+        "height": 8
+      }
+    },
+    {
+      "name": "neutron-gun",
+      "x": 4,
+      "y": 0,
+      "shootY": 4,
+      "reload": 15,
+      "rotate": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "speed": 6,
+        "lifetime": 25,
+        "width": 6,
+        "height": 8
+      }
+    }
+  ]
+  "research":{
+    "parent":"piercer"
+  }
+}

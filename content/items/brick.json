@@ -1,0 +1,12 @@
+{
+  "name": "Brick",
+  "color": "b54a3a",
+  "cost": 1.1,
+  "hardness": 1,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0
+  "research": {
+    "parent": "clay"
+  }
+}

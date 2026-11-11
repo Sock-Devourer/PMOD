@@ -1,0 +1,23 @@
+{
+  "type": "DuctBridge",
+
+  "name": "Ruby Duct Bridge",
+
+  "category": "distribution",
+
+  "range": 7,
+
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 6
+    }
+  ],
+  "research": {
+    "parent": "ruby-duct",
+    "requirements": [
+      "ruby/10"
+    ]
+  }
+  
+}

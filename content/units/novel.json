@@ -1,0 +1,25 @@
+{
+  "type": "flying",
+  "name": "Class",
+  "alwaysUnlocked": true,
+  "flying": true,
+  "accel": 0.5,
+  "drag": 0.05,
+  "rotateSpeed": 5,
+  "health": 700,
+  "armor": 3,
+  "speed": 5.2,
+  "hitSize": 12,
+  "engineOffset": 10,
+  "engineSize": 5,
+  "mineTier": 3,
+  "mineSpeed": 10,
+  "buildSpeed": 2,
+  "itemCapacity": 150
+  "research":{
+    "parent":"new"
+    "objectives": [
+      "core-initiation"
+    ]
+  }
+}

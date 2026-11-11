@@ -1,0 +1,72 @@
+{
+  "type": "flying",
+  "flying": true,
+
+  "name": "Electron",
+  "alwaysUnlocked": true,
+
+  "health": 1200,
+  "armor": 6,
+
+  "speed": 3.2,
+  "hitSize": 18,
+
+  "engineOffset": 12,
+  "engineSize": 5,
+
+  "range": 220,
+
+  "weapons": [
+    {
+      "name": "electron-weapon",
+
+      "x": 0,
+      "y": 0,
+
+      "shootY": 8,
+
+      "reload": 30,
+
+      "rotate": false,
+      "rotateSpeed": 8,
+
+      "shoot": {
+        "shots": 3,
+        "spread": 12
+      },
+
+      "bullet": {
+        "type": "BasicBulletType",
+
+        "damage": 25,
+
+        "speed": 7,
+        "lifetime": 30,
+
+        "width": 8,
+        "height": 12,
+
+        "lightning": 1,
+        "lightningDamage": 20,
+        "lightningLength": 8,
+
+        "frontColor": "a7c8ff",
+        "backColor": "5a8cff"
+      }
+    }
+   ],
+  "research": {
+    "parent": "proton",
+    "reqiuirements": [
+      "surge-dust/100",
+      "ruby/100",
+      "silicon/100"
+    ],
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  }
+}

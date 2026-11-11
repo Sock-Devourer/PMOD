@@ -1,0 +1,35 @@
+{
+  "type": "CoreBlock",
+  "name": "Core:Build",
+  "alwaysUnlocked": true,
+  "size": 4,
+  "health": 7000,
+  "itemCapacity": 9000,
+  "unitCapModifier": 16,
+  "unitType": "novel",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 3000
+    },
+    {
+      "item": "lead",
+      "amount": 2500
+    },
+    {
+      "item": "silicon",
+      "amount": 1500
+    },
+    {
+      "item": "graphite",
+      "amount": 1000
+    }
+  ],
+  "research":{
+    "parent":"core-starter",
+    "requirements": [
+            "ruby/100",
+            "emerald/80"
+        ]
+  }
+}
