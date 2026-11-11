@@ -1,0 +1,37 @@
+{
+  "type": "PowerTurret",
+  "name": "Proximity Mine",
+  "category": "defense",
+  "size": 2,
+  "health": 100,
+  "rotateSpeed": 100,
+  "range": 100,
+  "reload": 1,
+  "shootCone": 360,
+  "targetAir": true,
+  "targetGround": true,
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 5
+    }
+  ],
+  "shootType": {
+    "type": "BasicBulletType",
+    "killShooter": true,
+    "speed": 3,
+    "lifetime": 10,
+    "splashDamage": 5000,
+    "splashDamageRadius": 100,
+    "buildingDamageMultiplier": 1,
+    "frontColor": "ff0000",
+    "backColor": "ff0000",
+    "despawnUnit": "crush"
+  },
+  "research": {
+    "parent": "ruby-wall",
+    "requirements": [
+      "ruby/50"
+    ]
+  }
+}
